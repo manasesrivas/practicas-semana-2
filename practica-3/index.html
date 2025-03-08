@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: "Poppins", sans-serif;
+        }
+
+        :root{
+            --background-flag: rgb(75, 75, 193);
+            --background-header: rgb(29, 29, 121);
+        }
+
+        body{
+            position: relative;
+            margin: auto;
+            width: 900px;
+            min-width: 900px;
+            display: flex;
+            position: relative;
+        }
+
+        header{
+            position: absolute;
+            margin: 30px 0;
+            background: var(--background-header);
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            color: white;
+            width: 100%;
+            padding: 10px;
+        }
+        
+
+        header h1{
+            font-size: 1.5em;
+        }
+        
+        header h2{
+            font-size: 0.9em;
+            font-weight: 200;
+        }
+
+        .flag-right{
+            z-index: 1;
+            margin: 0 30px;
+            background: var(--background-flag);
+            height: 100%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            color: white;
+        }
+
+        .flag-right img{
+            width: 70%;
+            aspect-ratio: 2/2;
+            border-radius: 50%;
+            margin: 40px 0 30px 0;
+            align-self: center;
+            border: 2px solid white;
+        }
+
+
+        .content-uls{
+            width: 70%;
+            place-self: center;
+            padding: 20px 0;
+        }
+
+        
+        
+       
+
+        .line{
+            width: 80%;
+            height: 1px;
+            background-color: white;
+            place-self: center;
+        }
+
+        .section-about-me{
+            width: 100%;
+            place-self: center;
+        }
+
+        .about-me{
+            margin: 30px 0;
+        }
+        
+        .a-datos-personales{
+            display: block;
+            color: black;
+            text-overflow: ellipsis;
+            text-decoration: none;
+            white-space: wrap;
+            overflow: hidden; 
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="">
+            <h1>Manases Nehemias Rivas Lopez</h1>
+        
+            <h2>Tecnico vocacional en Desarrollo de software.</h2>
+        </div>
+    </header>
+
+    <section class="flag-right">
+        <img src="./assets/manuel-weber-C9X4SCzronk-unsplash.jpg" alt="">
+
+        
+        <div class="line"></div>
+        <div class="content-uls">
+            <h3>HABILIDADES</h3>
+            <ul>
+                <li>Framework django</li>
+                <li>Framework laravel</li>
+                <li>MySQL</li>
+                <li>HTML, CSS Y JavaScript</li>
+                <li>ESP-IDF</li>
+                <li>Arduino Framework</li>
+                <li>Electronica recidencial</li>
+                <li>Electronica digital</li>
+                <li>Tecnico practico en refrigeracion (con experiencia en taller)</li>
+
+                
+            </ul>
+        </div>
+
+        
+
+        <div class="line"></div>
+
+        <div class="content-uls">
+            <h3>EDUCACION</h3>
+
+            <ul>
+                <li>Instituno nacional profesor francisco ventura zelaya</li>
+                <li>Centro escolar centro america</li>
+            </ul>
+        </div>
+        
+    </section>
+
+    <section class="section-about-me">
+
+        <article class="about-me">
+            <h3>Mas sobre mi.</h3>
+            <p>
+                Soy un apacionado de la tecnologia, me gusta crear nuevas habilidades, como la resolucion de problemas y la capacidad de enfrentar desafios logicos, me apaciona la programacion, domotica
+            </p>
+        </article>
+
+        <article class="experiencia-laboral">
+            <h3>Experiencia laboral</h3>
+
+            <ol>
+                <li>diseño, programacion y despliege de sistema informatico para una biblioteca.</li>
+                <li>Trabajos particulares de soldadura de metales.</li>
+                <li>Trabajos particulares de reparacion y mantenimiento de refrigeracion.</li>
+                <li>Trabajos particulares de reparacion de placas electronicas</li>
+            </ol>
+        </article>
+
+        <article>
+            <h3>DATOS PERSONALES</h3>
+            <dl class="dl-datos-personales">
+                <dt><b>Numero de telefono</b></dt>  
+                <dd>
+                    <a class="a-datos-personales" href="">70861265</a>
+                </dd>
+                
+                <dt><b>Correo electronico</b></dt>
+                <dd>
+                    <a class="a-datos-personales" href="mailto:manasesnehemias@gmail.com">manasesnehemiasr@gmail.com</a>
+                </dd>
+            </dl>
+        </article>
+        
+    </section>
+    
+</body>
+</html>
